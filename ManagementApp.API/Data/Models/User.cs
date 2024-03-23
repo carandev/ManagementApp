@@ -22,4 +22,6 @@ public class User
     
     [DataType(DataType.DateTime)]
     public DateTime? UpdateDate { get; set; }
+
+    public virtual ICollection<MoneyAccount> MoneyAccounts { get; set; } = null!;
 }
