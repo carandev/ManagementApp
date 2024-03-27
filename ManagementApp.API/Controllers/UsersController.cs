@@ -5,7 +5,7 @@ using ManagementApp.API.Data.Models;
 
 namespace ManagementApp.API.Controllers
 {
-    [Route("api/users")]
+    [Route("api/v1/users")]
     [ApiController]
     public class UsersController(MainDataContext context) : ControllerBase
     {

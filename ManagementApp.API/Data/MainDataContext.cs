@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using ManagementApp.API.Data.Models;
 using ManagementApp.API.Data.Models.MoneyManagement;
 using Microsoft.EntityFrameworkCore;
@@ -18,4 +18,6 @@ public class MainDataContext(DbContextOptions<MainDataContext> options) : DbCont
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
+
+public DbSet<ManagementApp.API.Data.Models.MoneyManagement.MoneyMovement> MoneyMovement { get; set; } = default!;
 }
