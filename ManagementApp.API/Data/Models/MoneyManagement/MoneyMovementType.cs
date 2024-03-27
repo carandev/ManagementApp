@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ManagementApp.API.Data.Models;
+namespace ManagementApp.API.Data.Models.MoneyManagement;
 
 public enum MoneyMovementType
 {

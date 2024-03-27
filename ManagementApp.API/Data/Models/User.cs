@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ManagementApp.API.Data.Models.MoneyManagement;
 
 namespace ManagementApp.API.Data.Models;
 
